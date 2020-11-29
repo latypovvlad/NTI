@@ -1,0 +1,47 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="main">
+    <div class="top">
+        <img class="logo" src="logo.png">
+        <p class="title">Поиск программного обеспечения</p>
+        <p class="subtitle">Выберите категорию и критерии приложения</p>
+    </div>
+    <div class="bottom">
+        <form method="post" action="file.php">
+        <div class="category" style="width:300px;">
+            <select name="sapp">
+                <option selected>Категория</option>
+                <option value="1">Для работы с видеофайлами</option>
+                <option value="2">Для обработки фото</option>
+                <option value="3">Для работы с аудиофайлами</option>
+            </select>
+        </div>
+        <div class="checkboxes">
+            <div class="cbox">
+                <input type="checkbox" class="custom-checkbox" id="one" name="one">
+                <label for="one">1</label>
+            </div>
+            <div class="cbox">
+                <input type="checkbox" class="custom-checkbox" id="two" name="two">
+                <label for="two">2</label>
+            </div>
+            <div class="cbox">
+                <input type="checkbox" class="custom-checkbox" id="three" name="three">
+                <label for="three">3</label>
+            </div>
+            <div class="cbox">
+                <input type="checkbox" class="custom-checkbox" id="four" name="four">
+                <label for="four">4</label>
+            </div>
+        </div>
+        <div class="button">
+            <input type="submit" class="search" value="Поиск">
+        </div>
+        </form>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
