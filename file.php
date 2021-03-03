@@ -13,7 +13,7 @@
     </div>
     <div class="bottom">
 <?php
-$link = mysqli_connect("localhost", "id15492176_play", "010720059!++!Vl", "id15492176_playmarket");
+$link = mysqli_connect("localhost", "name_bd", "password", "table");
 
 /* проверка соединения */
 if (mysqli_connect_errno()) {
